@@ -111,7 +111,7 @@ And to use this type, like we did with the other types:
 
 ```dart
 void main(){
-    Day day = Day.sunday
+    Day today = Day.sunday
 }
 ```
 
@@ -130,8 +130,8 @@ enum Day {
     saturday
 }
 void main() {
-    Day day = day.sunday;
-    switch (day) {
+    Day today = Day.sunday;
+    switch (today) {
         case Day.sunday:
             print("Sunday");
         break;
