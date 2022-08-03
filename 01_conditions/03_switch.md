@@ -3,17 +3,17 @@ Suppose you have the following code:
 ```dart
 void main() {
     const day = 1;
-    if (day === 1){
+    if (day == 1){
         print("Sunday");
-    } else if (day === 2){
+    } else if (day == 2){
         print("Monday");
-    } else if (day === 3){
+    } else if (day == 3){
         print("Tuesday");
-    } else if (day === 4){
+    } else if (day == 4){
         print("Wednesday");
-    } else if (day === 5){
+    } else if (day == 5){
         print("Thursday");
-    } else if (day === 6){
+    } else if (day == 6){
         print("Friday");
     } else {
         print("Saturday");
@@ -21,7 +21,7 @@ void main() {
 }
 ```
 
-As you see, to write this logic, we need a lot of `if else` statements. 
+As you can see, to write this logic, we need a lot of `if else` statements.
 
 Instead, we can rewrite this logic using a `switch` statement:
 
@@ -34,9 +34,9 @@ void main() {
 }
 ```
 
-So we start by adding the `switch` keyword, and between parenthesis we write the variable that we want to check, in our case, we need to check the value of `day`.
+We start by adding the `switch` keyword, and within a parenthesis, we place the variable that we want to check. In our case, we need to check the value of `day`.
 
-Then we open a set of curly braces and we start listing our cases:
+Then, we open a set of curly braces and we start listing our cases:
 
 ```dart
 void main() {
@@ -49,9 +49,9 @@ void main() {
 }
 ```
 
-We added our first `case`, by writing the `case` keyword followed by the value that `if` matched, it will execute the code bellow it.
+We added our first `case`, by writing the `case` keyword followed by the value that `if` matched, it will execute the code below it.
 
-Then we write the `break` keyword that ensures that we exist the `switch` statement.
+Then, we wrote the `break` keyword to ensure that we exited the `switch` statement.
 
 Let's add the rest of our cases:
 
@@ -81,7 +81,7 @@ void main() {
 }
 ```
 
-And like we have `else` to take care of all the rest conditions, we have `default` in `switch` statements:
+Like we have `else` to take care of the rest of the conditions, we have `default` in `switch` statements:
 
 ```dart
 void main() {
@@ -112,4 +112,4 @@ void main() {
 }
 ```
 
-Run the code, and as you see, it works the same as our previous `if` statement.
+Run the code. As you can see, it works similarly to our previous `if` statement.
