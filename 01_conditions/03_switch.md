@@ -34,7 +34,7 @@ void main() {
 }
 ```
 
-We start by adding the `switch` keyword, and within a parenthesis, we place the variable that we want to check. In our case, we need to check the value of `day`.
+We start by adding the `switch` keyword, and within parentheses, we place the variable that we want to check. In our case, we need to check the value of `day`.
 
 Then, we open a set of curly braces and we start listing our cases:
 

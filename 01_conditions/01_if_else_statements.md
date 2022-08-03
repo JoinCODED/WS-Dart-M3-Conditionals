@@ -1,4 +1,4 @@
-In this lesson and the upcoming lessons, we will learn about conditionals in dart. Conditionals allow us to write code to make decisions based on some conditions.
+In this lesson and the upcoming lessons, we will learn about conditionals in Dart. Conditionals allow us to write code to make decisions based on some conditions.
 
 Suppose that you have an airplane tickets program, and you want to sell the ticket based on the following conditions:
 
@@ -8,7 +8,7 @@ If the age is more than or equal to 60, you will charge 12 KWD for the ticket.
 
 Otherwise the ticket is worth 14 KWD.
 
-Let's see how to code that in dart:
+Let's see how to code that in Dart:
 
 ```dart
 void main() {
@@ -19,7 +19,7 @@ void main() {
 }
 ```
 
-To digest what we wrote above, we start an `if` condition with the `if` keyword. we write our conditions between parenthesis, once they're evaluated and result with a `true` value, the code will execute what's in the curly braces and it will print:
+To digest what we wrote above, we start an `if` condition with the `if` keyword. we write our conditions between parentheses, once they're evaluated and result with a `true` value, the code will execute what's in the curly braces and it will print:
 
 Output:
 
@@ -57,7 +57,7 @@ void main() {
 }
 ```
 
-In the code above, we wrote `else if` followed by another condition in a set of parenthesis, and between the curly bracers we wrote the code we want to execute `if` the condition resolves to `true`.
+In the code above, we wrote `else if` followed by another condition in a set of parentheses, and between the curly bracers we wrote the code we want to execute `if` the condition resolves to `true`.
 
 Our program flow will be as follows:
 

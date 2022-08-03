@@ -105,7 +105,7 @@ void main() {
 }
 ```
 
-What we did above is not just defining an `enum`, we actually defined a new `type` of dart. Remember the types `String`, `int`, and `double`? We just created one called `Day`.
+What we did above is not just defining an `enum`, we actually defined a new `type` of Dart. Remember the types `String`, `int`, and `double`? We just created one called `Day`.
 
 We use this type as we did with the other types:
 
